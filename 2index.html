@@ -2,15 +2,92 @@
 <html>
     <head>
         <title>Calculator</title>
-         <link rel="stylesheet" href="index.css">
+         
     </head>
+    
     <body>
+        <style>
+            body {
+    
+    background-color: #EAF5EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    
+}
+
+.display{
+    height: 60px;
+    padding: 20px;
+    margin: 10px;
+    text-align: right;
+    background-color: #DCEFE6;
+    width: 260px;
+    border: 2px solid #a1d3b4
+    
+    
+}
+.buttons{
+     padding: 15px;
+    font-size: 45px;
+    height: 45px;
+    
+}
+    
+   
+
+.digit{
+    background-color: white ;
+    height: 45px;
+     width: 60px;
+     border-radius: 8px;
+     box-shadow: none;
+}
+.clears{
+    background-color: #E5E7EB;
+    height: 45px;
+     width: 60px;
+     border-radius: 8px;
+    
+}
+.clear{
+   background-color: #E5E7EB;
+   height: 45px;
+    width: 60px;
+    border-radius: 8px;
+    
+}
+.operator{
+    background-color: #caf0ca;
+    height: 45px;
+ width: 60px;
+ border-radius: 8px;
+ 
+}
+
+    .equals{
+        background-color: #78bc92;
+        height: 45px;
+         width: 135px;
+         border-radius: 8px;
+
+    }
+    .calculator{
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        width: 320px;
+        background-color: whitesmoke;
+        border: 3px solid #8dc4a2
         
+    }
+
+        </style>
         <div class="calculator">
-        <div class="display">
-            <h1>0</h1>
-        </div>
-        <div class="buttons">
+            <div class="display">
+                <h1>0</h1>
+            </div>
+                     <div class="buttons">
             <button class="clears">AC</button>
             <button class="clear">C</button>
             <button class="operator">/</button>
